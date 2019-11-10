@@ -8,15 +8,19 @@
     "url": "<%- repository %>"
   },
   "scripts": {
-    "start": "nowa server",
-    "build": "nowa build"
+    "start": "nowa2 start",
+    "server": "nowa2 server",
+    "build": "nowa2 build"
   },
   "homepage": "<%- homepage %>",
   "license": "MIT",
   "dependencies": {
-    "classnames": "~2.1.2",
-    "i18n-helper": "~1.1.1",
-    "react-mixin": "~1.7.0",
-    "uxcore": "~0.4.1"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@nowa/cli": "^0.5.1",
+    "@nowa/solution-react-typescript": "^0.11.6",
+    "typescript": "^3.7.0"
   }
 }
